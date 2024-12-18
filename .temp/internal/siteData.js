@@ -57,105 +57,6 @@ export const siteData = {
       "lastUpdatedTimestamp": 1732670745000
     },
     {
-      "title": "项目简介",
-      "frontmatter": {},
-      "regularPath": "/documentation/bigScreen/",
-      "relativePath": "documentation/bigScreen/index.md",
-      "key": "v-0a7ee641",
-      "path": "/documentation/bigScreen/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "项目简介",
-          "slug": "项目简介"
-        },
-        {
-          "level": 2,
-          "title": "需求分析",
-          "slug": "需求分析"
-        },
-        {
-          "level": 2,
-          "title": "数据准备",
-          "slug": "数据准备"
-        },
-        {
-          "level": 2,
-          "title": "选择数据",
-          "slug": "选择数据"
-        },
-        {
-          "level": 2,
-          "title": "选择图表",
-          "slug": "选择图表"
-        },
-        {
-          "level": 2,
-          "title": "选择数据",
-          "slug": "选择数据-2"
-        },
-        {
-          "level": 2,
-          "title": "预览大屏",
-          "slug": "预览大屏"
-        }
-      ],
-      "lastUpdated": "11/27/2024, 9:25:45 AM",
-      "lastUpdatedTimestamp": 1732670745000
-    },
-    {
-      "title": "自定义g2plots组件",
-      "frontmatter": {},
-      "regularPath": "/documentation/congfiguration/%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89g2Plots%E7%BB%84%E4%BB%B6/1.1%E5%88%9B%E5%BB%BA%E7%9B%AE%E5%BD%95/",
-      "relativePath": "documentation/congfiguration/创建自定义g2Plots组件/1.1创建目录/index.md",
-      "key": "v-17487942",
-      "path": "/documentation/congfiguration/%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89g2Plots%E7%BB%84%E4%BB%B6/1.1%E5%88%9B%E5%BB%BA%E7%9B%AE%E5%BD%95/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "1.1 logos",
-          "slug": "_1-1-logos"
-        },
-        {
-          "level": 2,
-          "title": "1.2. exports.js",
-          "slug": "_1-2-exports-js"
-        }
-      ],
-      "lastUpdated": "11/27/2024, 9:25:45 AM",
-      "lastUpdatedTimestamp": 1732670745000
-    },
-    {
-      "title": "1.3 注册自定义组件配置",
-      "frontmatter": {},
-      "regularPath": "/documentation/congfiguration/%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89g2Plots%E7%BB%84%E4%BB%B6/1.3%E6%B3%A8%E5%86%8C%E7%BB%84%E4%BB%B6/",
-      "relativePath": "documentation/congfiguration/创建自定义g2Plots组件/1.3注册组件/index.md",
-      "key": "v-89f8d372",
-      "path": "/documentation/congfiguration/%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89g2Plots%E7%BB%84%E4%BB%B6/1.3%E6%B3%A8%E5%86%8C%E7%BB%84%E4%BB%B6/",
-      "lastUpdated": "11/27/2024, 9:25:45 AM",
-      "lastUpdatedTimestamp": 1732670745000
-    },
-    {
-      "title": "组件库",
-      "frontmatter": {},
-      "regularPath": "/documentation/congfiguration/",
-      "relativePath": "documentation/congfiguration/index.md",
-      "key": "v-81b7d7f6",
-      "path": "/documentation/congfiguration/",
-      "lastUpdated": "11/27/2024, 9:25:45 AM",
-      "lastUpdatedTimestamp": 1732670745000
-    },
-    {
-      "title": "组件库",
-      "frontmatter": {},
-      "regularPath": "/documentation/congfiguration/%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89g2Plots%E7%BB%84%E4%BB%B6/",
-      "relativePath": "documentation/congfiguration/创建自定义g2Plots组件/index.md",
-      "key": "v-1cbddf19",
-      "path": "/documentation/congfiguration/%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89g2Plots%E7%BB%84%E4%BB%B6/",
-      "lastUpdated": "11/27/2024, 9:25:45 AM",
-      "lastUpdatedTimestamp": 1732670745000
-    },
-    {
       "title": "1.2. 配置散点图.js",
       "frontmatter": {},
       "regularPath": "/documentation/congfiguration/%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89g2Plots%E7%BB%84%E4%BB%B6/1.2%E9%85%8D%E7%BD%AE%E7%BB%84%E4%BB%B6/",
@@ -228,29 +129,22 @@ export const siteData = {
       "lastUpdatedTimestamp": 1732670745000
     },
     {
+      "title": "1.3 注册自定义组件配置",
       "frontmatter": {},
-      "regularPath": "/documentation/dataSource/",
-      "relativePath": "documentation/dataSource/index.md",
-      "key": "v-0286bced",
-      "path": "/documentation/dataSource/",
+      "regularPath": "/documentation/congfiguration/%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89g2Plots%E7%BB%84%E4%BB%B6/1.3%E6%B3%A8%E5%86%8C%E7%BB%84%E4%BB%B6/",
+      "relativePath": "documentation/congfiguration/创建自定义g2Plots组件/1.3注册组件/index.md",
+      "key": "v-89f8d372",
+      "path": "/documentation/congfiguration/%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89g2Plots%E7%BB%84%E4%BB%B6/1.3%E6%B3%A8%E5%86%8C%E7%BB%84%E4%BB%B6/",
       "lastUpdated": "11/27/2024, 9:25:45 AM",
       "lastUpdatedTimestamp": 1732670745000
     },
     {
+      "title": "组件库",
       "frontmatter": {},
-      "regularPath": "/documentation/dataflow/",
-      "relativePath": "documentation/dataflow/index.md",
-      "key": "v-e14c6272",
-      "path": "/documentation/dataflow/",
-      "lastUpdated": "11/27/2024, 9:25:45 AM",
-      "lastUpdatedTimestamp": 1732670745000
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/documentation/",
-      "relativePath": "documentation/index.md",
-      "key": "v-77356e2e",
-      "path": "/documentation/",
+      "regularPath": "/documentation/congfiguration/",
+      "relativePath": "documentation/congfiguration/index.md",
+      "key": "v-81b7d7f6",
+      "path": "/documentation/congfiguration/",
       "lastUpdated": "11/27/2024, 9:25:45 AM",
       "lastUpdatedTimestamp": 1732670745000
     },
@@ -266,6 +160,103 @@ export const siteData = {
           "level": 2,
           "title": "1.4效果图",
           "slug": "_1-4效果图"
+        }
+      ],
+      "lastUpdated": "11/27/2024, 9:25:45 AM",
+      "lastUpdatedTimestamp": 1732670745000
+    },
+    {
+      "title": "自定义g2plots组件",
+      "frontmatter": {},
+      "regularPath": "/documentation/congfiguration/%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89g2Plots%E7%BB%84%E4%BB%B6/1.1%E5%88%9B%E5%BB%BA%E7%9B%AE%E5%BD%95/",
+      "relativePath": "documentation/congfiguration/创建自定义g2Plots组件/1.1创建目录/index.md",
+      "key": "v-17487942",
+      "path": "/documentation/congfiguration/%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89g2Plots%E7%BB%84%E4%BB%B6/1.1%E5%88%9B%E5%BB%BA%E7%9B%AE%E5%BD%95/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1.1 logos",
+          "slug": "_1-1-logos"
+        },
+        {
+          "level": 2,
+          "title": "1.2. exports.js",
+          "slug": "_1-2-exports-js"
+        }
+      ],
+      "lastUpdated": "11/27/2024, 9:25:45 AM",
+      "lastUpdatedTimestamp": 1732670745000
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/documentation/dataSource/",
+      "relativePath": "documentation/dataSource/index.md",
+      "key": "v-0286bced",
+      "path": "/documentation/dataSource/",
+      "lastUpdated": "11/27/2024, 9:25:45 AM",
+      "lastUpdatedTimestamp": 1732670745000
+    },
+    {
+      "title": "组件库",
+      "frontmatter": {},
+      "regularPath": "/documentation/congfiguration/%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89g2Plots%E7%BB%84%E4%BB%B6/",
+      "relativePath": "documentation/congfiguration/创建自定义g2Plots组件/index.md",
+      "key": "v-1cbddf19",
+      "path": "/documentation/congfiguration/%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89g2Plots%E7%BB%84%E4%BB%B6/",
+      "lastUpdated": "11/27/2024, 9:25:45 AM",
+      "lastUpdatedTimestamp": 1732670745000
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/documentation/dataflow/",
+      "relativePath": "documentation/dataflow/index.md",
+      "key": "v-e14c6272",
+      "path": "/documentation/dataflow/",
+      "lastUpdated": "11/27/2024, 9:25:45 AM",
+      "lastUpdatedTimestamp": 1732670745000
+    },
+    {
+      "title": "项目简介",
+      "frontmatter": {},
+      "regularPath": "/documentation/bigScreen/",
+      "relativePath": "documentation/bigScreen/index.md",
+      "key": "v-0a7ee641",
+      "path": "/documentation/bigScreen/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "项目简介",
+          "slug": "项目简介"
+        },
+        {
+          "level": 2,
+          "title": "需求分析",
+          "slug": "需求分析"
+        },
+        {
+          "level": 2,
+          "title": "数据准备",
+          "slug": "数据准备"
+        },
+        {
+          "level": 2,
+          "title": "选择数据",
+          "slug": "选择数据"
+        },
+        {
+          "level": 2,
+          "title": "选择图表",
+          "slug": "选择图表"
+        },
+        {
+          "level": 2,
+          "title": "选择数据",
+          "slug": "选择数据-2"
+        },
+        {
+          "level": 2,
+          "title": "预览大屏",
+          "slug": "预览大屏"
         }
       ],
       "lastUpdated": "11/27/2024, 9:25:45 AM",
@@ -319,6 +310,15 @@ export const siteData = {
           "slug": "⛳️-联系方式-微信-jonehoo"
         }
       ],
+      "lastUpdated": "12/18/2024, 11:20:44 AM",
+      "lastUpdatedTimestamp": 1734492044000
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/documentation/",
+      "relativePath": "documentation/index.md",
+      "key": "v-77356e2e",
+      "path": "/documentation/",
       "lastUpdated": "11/27/2024, 9:25:45 AM",
       "lastUpdatedTimestamp": 1732670745000
     },
