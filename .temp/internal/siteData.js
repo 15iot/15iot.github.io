@@ -16,11 +16,45 @@ export const siteData = {
   ],
   "pages": [
     {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "heroImage": "images/logo.png",
+        "heroText": "Siwu-IoT-View",
+        "tagline": "基于RuoYi-Vue 3.8.8和Dataroom 2.0 集成开发",
+        "actionText": "快速上手 →",
+        "actionLink": "/introduction/",
+        "features": [
+          {
+            "title": "设计器",
+            "details": "基于SpringBoot、MyBatisPlus、ElementUI、G2Plot、Echarts等技术栈的大屏设计器，具备大屏分组管理、大屏设计、大屏预览能力。"
+          },
+          {
+            "title": "组件库",
+            "details": "平台提供丰富的业务组件和数据接入能力，包括图表40 、通用组件20 、素材图片300 、自定义组件。"
+          },
+          {
+            "title": "数据源",
+            "details": "支持MySQL、Oracle、PostgreSQL、JSON等数据集接入，对于复杂数据处理还可以使用Groovy脚本数据集，使用简单，完全免费，代码开源。"
+          }
+        ],
+        "footer": "2024 | Maked BY Su.Guichuan"
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-3b2ca959",
+      "path": "/",
+      "lastUpdated": "11/27/2024, 9:25:45 AM",
+      "lastUpdatedTimestamp": 1732670745000
+    },
+    {
       "frontmatter": {},
       "regularPath": "/about/",
       "relativePath": "about/index.md",
       "key": "v-5edeba8e",
-      "path": "/about/"
+      "path": "/about/",
+      "lastUpdated": "11/27/2024, 9:25:45 AM",
+      "lastUpdatedTimestamp": 1732670745000
     },
     {
       "title": "项目简介",
@@ -65,37 +99,9 @@ export const siteData = {
           "title": "预览大屏",
           "slug": "预览大屏"
         }
-      ]
-    },
-    {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "heroImage": "images/logo.png",
-        "heroText": "Siwu-IoT-View",
-        "tagline": "基于RuoYi-Vue 3.8.8和Dataroom 2.0 集成开发",
-        "actionText": "快速上手 →",
-        "actionLink": "/introduction/",
-        "features": [
-          {
-            "title": "设计器",
-            "details": "基于SpringBoot、MyBatisPlus、ElementUI、G2Plot、Echarts等技术栈的大屏设计器，具备大屏分组管理、大屏设计、大屏预览能力。"
-          },
-          {
-            "title": "组件库",
-            "details": "平台提供丰富的业务组件和数据接入能力，包括图表40 、通用组件20 、素材图片300 、自定义组件。"
-          },
-          {
-            "title": "数据源",
-            "details": "支持MySQL、Oracle、PostgreSQL、JSON等数据集接入，对于复杂数据处理还可以使用Groovy脚本数据集，使用简单，完全免费，代码开源。"
-          }
-        ],
-        "footer": "2024 | Maked BY Su.Guichuan"
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-3b2ca959",
-      "path": "/"
+      ],
+      "lastUpdated": "11/27/2024, 9:25:45 AM",
+      "lastUpdatedTimestamp": 1732670745000
     },
     {
       "title": "自定义g2plots组件",
@@ -115,7 +121,39 @@ export const siteData = {
           "title": "1.2. exports.js",
           "slug": "_1-2-exports-js"
         }
-      ]
+      ],
+      "lastUpdated": "11/27/2024, 9:25:45 AM",
+      "lastUpdatedTimestamp": 1732670745000
+    },
+    {
+      "title": "1.3 注册自定义组件配置",
+      "frontmatter": {},
+      "regularPath": "/documentation/congfiguration/%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89g2Plots%E7%BB%84%E4%BB%B6/1.3%E6%B3%A8%E5%86%8C%E7%BB%84%E4%BB%B6/",
+      "relativePath": "documentation/congfiguration/创建自定义g2Plots组件/1.3注册组件/index.md",
+      "key": "v-89f8d372",
+      "path": "/documentation/congfiguration/%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89g2Plots%E7%BB%84%E4%BB%B6/1.3%E6%B3%A8%E5%86%8C%E7%BB%84%E4%BB%B6/",
+      "lastUpdated": "11/27/2024, 9:25:45 AM",
+      "lastUpdatedTimestamp": 1732670745000
+    },
+    {
+      "title": "组件库",
+      "frontmatter": {},
+      "regularPath": "/documentation/congfiguration/",
+      "relativePath": "documentation/congfiguration/index.md",
+      "key": "v-81b7d7f6",
+      "path": "/documentation/congfiguration/",
+      "lastUpdated": "11/27/2024, 9:25:45 AM",
+      "lastUpdatedTimestamp": 1732670745000
+    },
+    {
+      "title": "组件库",
+      "frontmatter": {},
+      "regularPath": "/documentation/congfiguration/%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89g2Plots%E7%BB%84%E4%BB%B6/",
+      "relativePath": "documentation/congfiguration/创建自定义g2Plots组件/index.md",
+      "key": "v-1cbddf19",
+      "path": "/documentation/congfiguration/%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89g2Plots%E7%BB%84%E4%BB%B6/",
+      "lastUpdated": "11/27/2024, 9:25:45 AM",
+      "lastUpdatedTimestamp": 1732670745000
     },
     {
       "title": "1.2. 配置散点图.js",
@@ -185,45 +223,36 @@ export const siteData = {
           "title": "1.2.10. option",
           "slug": "_1-2-10-option"
         }
-      ]
-    },
-    {
-      "title": "1.3 注册自定义组件配置",
-      "frontmatter": {},
-      "regularPath": "/documentation/congfiguration/%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89g2Plots%E7%BB%84%E4%BB%B6/1.3%E6%B3%A8%E5%86%8C%E7%BB%84%E4%BB%B6/",
-      "relativePath": "documentation/congfiguration/创建自定义g2Plots组件/1.3注册组件/index.md",
-      "key": "v-89f8d372",
-      "path": "/documentation/congfiguration/%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89g2Plots%E7%BB%84%E4%BB%B6/1.3%E6%B3%A8%E5%86%8C%E7%BB%84%E4%BB%B6/"
-    },
-    {
-      "title": "组件库",
-      "frontmatter": {},
-      "regularPath": "/documentation/congfiguration/",
-      "relativePath": "documentation/congfiguration/index.md",
-      "key": "v-81b7d7f6",
-      "path": "/documentation/congfiguration/"
-    },
-    {
-      "title": "组件库",
-      "frontmatter": {},
-      "regularPath": "/documentation/congfiguration/%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89g2Plots%E7%BB%84%E4%BB%B6/",
-      "relativePath": "documentation/congfiguration/创建自定义g2Plots组件/index.md",
-      "key": "v-1cbddf19",
-      "path": "/documentation/congfiguration/%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89g2Plots%E7%BB%84%E4%BB%B6/"
+      ],
+      "lastUpdated": "11/27/2024, 9:25:45 AM",
+      "lastUpdatedTimestamp": 1732670745000
     },
     {
       "frontmatter": {},
       "regularPath": "/documentation/dataSource/",
       "relativePath": "documentation/dataSource/index.md",
       "key": "v-0286bced",
-      "path": "/documentation/dataSource/"
+      "path": "/documentation/dataSource/",
+      "lastUpdated": "11/27/2024, 9:25:45 AM",
+      "lastUpdatedTimestamp": 1732670745000
     },
     {
       "frontmatter": {},
       "regularPath": "/documentation/dataflow/",
       "relativePath": "documentation/dataflow/index.md",
       "key": "v-e14c6272",
-      "path": "/documentation/dataflow/"
+      "path": "/documentation/dataflow/",
+      "lastUpdated": "11/27/2024, 9:25:45 AM",
+      "lastUpdatedTimestamp": 1732670745000
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/documentation/",
+      "relativePath": "documentation/index.md",
+      "key": "v-77356e2e",
+      "path": "/documentation/",
+      "lastUpdated": "11/27/2024, 9:25:45 AM",
+      "lastUpdatedTimestamp": 1732670745000
     },
     {
       "title": "1.4效果图",
@@ -238,7 +267,60 @@ export const siteData = {
           "title": "1.4效果图",
           "slug": "_1-4效果图"
         }
-      ]
+      ],
+      "lastUpdated": "11/27/2024, 9:25:45 AM",
+      "lastUpdatedTimestamp": 1732670745000
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/introduction/",
+      "relativePath": "introduction/index.md",
+      "key": "v-487df90c",
+      "path": "/introduction/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "🎉 特别鸣谢：",
+          "slug": "🎉-特别鸣谢"
+        },
+        {
+          "level": 2,
+          "title": "⭐️ 项目介绍",
+          "slug": "⭐️-项目介绍"
+        },
+        {
+          "level": 2,
+          "title": "✨ 在线体验",
+          "slug": "✨-在线体验"
+        },
+        {
+          "level": 2,
+          "title": "⚡ 主要功能",
+          "slug": "⚡-主要功能"
+        },
+        {
+          "level": 2,
+          "title": "☝️ 技术栈",
+          "slug": "☝️-技术栈"
+        },
+        {
+          "level": 2,
+          "title": "‍✈️ 系统特性",
+          "slug": "‍✈️-系统特性"
+        },
+        {
+          "level": 2,
+          "title": "☘️ 演示图",
+          "slug": "☘️-演示图"
+        },
+        {
+          "level": 2,
+          "title": "⛳️ 联系方式（微信：Jonehoo）",
+          "slug": "⛳️-联系方式-微信-jonehoo"
+        }
+      ],
+      "lastUpdated": "11/27/2024, 9:25:45 AM",
+      "lastUpdatedTimestamp": 1732670745000
     },
     {
       "title": "环境部署",
@@ -293,48 +375,9 @@ export const siteData = {
           "title": "前端部署",
           "slug": "前端部署"
         }
-      ]
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/documentation/",
-      "relativePath": "documentation/index.md",
-      "key": "v-77356e2e",
-      "path": "/documentation/"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/introduction/",
-      "relativePath": "introduction/index.md",
-      "key": "v-487df90c",
-      "path": "/introduction/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "平台简介",
-          "slug": "平台简介"
-        },
-        {
-          "level": 2,
-          "title": "内置功能",
-          "slug": "内置功能"
-        },
-        {
-          "level": 2,
-          "title": "在线体验",
-          "slug": "在线体验"
-        },
-        {
-          "level": 2,
-          "title": "演示图",
-          "slug": "演示图"
-        },
-        {
-          "level": 2,
-          "title": "交流群",
-          "slug": "交流群"
-        }
-      ]
+      ],
+      "lastUpdated": "11/27/2024, 9:25:45 AM",
+      "lastUpdatedTimestamp": 1732670745000
     }
   ],
   "themeConfig": {

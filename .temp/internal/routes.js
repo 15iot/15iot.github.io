@@ -9,6 +9,18 @@ import GlobalLayout from "D:\\B-Projects\\9-vuePress-Doc\\SwIoT-Doc\\node_module
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
+    name: "v-3b2ca959",
+    path: "/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-3b2ca959").then(next)
+    },
+  },
+  {
+    path: "/index.html",
+    redirect: "/"
+  },
+  {
     name: "v-5edeba8e",
     path: "/about/",
     component: GlobalLayout,
@@ -33,18 +45,6 @@ export const routes = [
     redirect: "/documentation/bigScreen/"
   },
   {
-    name: "v-3b2ca959",
-    path: "/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-3b2ca959").then(next)
-    },
-  },
-  {
-    path: "/index.html",
-    redirect: "/"
-  },
-  {
     name: "v-17487942",
     path: "/documentation/congfiguration/%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89g2Plots%E7%BB%84%E4%BB%B6/1.1%E5%88%9B%E5%BB%BA%E7%9B%AE%E5%BD%95/",
     component: GlobalLayout,
@@ -63,26 +63,6 @@ export const routes = [
   {
     path: "/documentation/congfiguration/创建自定义g2Plots组件/1.1创建目录/",
     redirect: "/documentation/congfiguration/%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89g2Plots%E7%BB%84%E4%BB%B6/1.1%E5%88%9B%E5%BB%BA%E7%9B%AE%E5%BD%95/"
-  },
-  {
-    name: "v-fdff118e",
-    path: "/documentation/congfiguration/%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89g2Plots%E7%BB%84%E4%BB%B6/1.2%E9%85%8D%E7%BD%AE%E7%BB%84%E4%BB%B6/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-fdff118e").then(next)
-    },
-  },
-  {
-    path: "/documentation/congfiguration/创建自定义g2Plots组件/1.2配置组件/",
-    redirect: "/documentation/congfiguration/%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89g2Plots%E7%BB%84%E4%BB%B6/1.2%E9%85%8D%E7%BD%AE%E7%BB%84%E4%BB%B6/"
-  },
-  {
-    path: "/documentation/congfiguration/%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89g2Plots%E7%BB%84%E4%BB%B6/1.2%E9%85%8D%E7%BD%AE%E7%BB%84%E4%BB%B6/index.html",
-    redirect: "/documentation/congfiguration/%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89g2Plots%E7%BB%84%E4%BB%B6/1.2%E9%85%8D%E7%BD%AE%E7%BB%84%E4%BB%B6/"
-  },
-  {
-    path: "/documentation/congfiguration/创建自定义g2Plots组件/1.2配置组件/",
-    redirect: "/documentation/congfiguration/%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89g2Plots%E7%BB%84%E4%BB%B6/1.2%E9%85%8D%E7%BD%AE%E7%BB%84%E4%BB%B6/"
   },
   {
     name: "v-89f8d372",
@@ -137,6 +117,26 @@ export const routes = [
     redirect: "/documentation/congfiguration/%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89g2Plots%E7%BB%84%E4%BB%B6/"
   },
   {
+    name: "v-fdff118e",
+    path: "/documentation/congfiguration/%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89g2Plots%E7%BB%84%E4%BB%B6/1.2%E9%85%8D%E7%BD%AE%E7%BB%84%E4%BB%B6/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-fdff118e").then(next)
+    },
+  },
+  {
+    path: "/documentation/congfiguration/创建自定义g2Plots组件/1.2配置组件/",
+    redirect: "/documentation/congfiguration/%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89g2Plots%E7%BB%84%E4%BB%B6/1.2%E9%85%8D%E7%BD%AE%E7%BB%84%E4%BB%B6/"
+  },
+  {
+    path: "/documentation/congfiguration/%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89g2Plots%E7%BB%84%E4%BB%B6/1.2%E9%85%8D%E7%BD%AE%E7%BB%84%E4%BB%B6/index.html",
+    redirect: "/documentation/congfiguration/%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89g2Plots%E7%BB%84%E4%BB%B6/1.2%E9%85%8D%E7%BD%AE%E7%BB%84%E4%BB%B6/"
+  },
+  {
+    path: "/documentation/congfiguration/创建自定义g2Plots组件/1.2配置组件/",
+    redirect: "/documentation/congfiguration/%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89g2Plots%E7%BB%84%E4%BB%B6/1.2%E9%85%8D%E7%BD%AE%E7%BB%84%E4%BB%B6/"
+  },
+  {
     name: "v-0286bced",
     path: "/documentation/dataSource/",
     component: GlobalLayout,
@@ -161,6 +161,18 @@ export const routes = [
     redirect: "/documentation/dataflow/"
   },
   {
+    name: "v-77356e2e",
+    path: "/documentation/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-77356e2e").then(next)
+    },
+  },
+  {
+    path: "/documentation/index.html",
+    redirect: "/documentation/"
+  },
+  {
     name: "v-8c956032",
     path: "/documentation/congfiguration/%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89g2Plots%E7%BB%84%E4%BB%B6/1.4%E6%95%88%E6%9E%9C%E5%9B%BE/",
     component: GlobalLayout,
@@ -181,30 +193,6 @@ export const routes = [
     redirect: "/documentation/congfiguration/%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89g2Plots%E7%BB%84%E4%BB%B6/1.4%E6%95%88%E6%9E%9C%E5%9B%BE/"
   },
   {
-    name: "v-f25d6e66",
-    path: "/documentation/quickStart/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-f25d6e66").then(next)
-    },
-  },
-  {
-    path: "/documentation/quickStart/index.html",
-    redirect: "/documentation/quickStart/"
-  },
-  {
-    name: "v-77356e2e",
-    path: "/documentation/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-77356e2e").then(next)
-    },
-  },
-  {
-    path: "/documentation/index.html",
-    redirect: "/documentation/"
-  },
-  {
     name: "v-487df90c",
     path: "/introduction/",
     component: GlobalLayout,
@@ -215,6 +203,18 @@ export const routes = [
   {
     path: "/introduction/index.html",
     redirect: "/introduction/"
+  },
+  {
+    name: "v-f25d6e66",
+    path: "/documentation/quickStart/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-f25d6e66").then(next)
+    },
+  },
+  {
+    path: "/documentation/quickStart/index.html",
+    redirect: "/documentation/quickStart/"
   },
   {
     path: '*',
