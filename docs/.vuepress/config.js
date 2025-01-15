@@ -1,4 +1,5 @@
 module.exports = {
+  base: '/',
   lang: 'zh-CN',
   title: 'Siwu-IoT-View',
   description: '个人Siwu-IoT-View站点',
@@ -28,7 +29,7 @@ module.exports = {
             title: '大屏设计器',
             path: '/documentation/bigScreen/',
           },
-          {
+          {  
             title: '组件库配置',
             path: '/documentation/congfiguration/',
             children: [
@@ -52,13 +53,13 @@ module.exports = {
                     title: '1.4效果图',
                     path: '/documentation/congfiguration/创建自定义g2Plots组件/1.4效果图/',
                   },
-               
-        
+
+
                 ]
               },
-             
-           
-    
+
+
+
             ]
           },
           {
@@ -80,7 +81,7 @@ module.exports = {
                   {
                     title: 'HTTP数据集',
                     path: '/documentation/example/dataset/http/',
-                  },                 
+                  },
                 ]
               },
             ]
