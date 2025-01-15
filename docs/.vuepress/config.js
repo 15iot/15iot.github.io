@@ -69,6 +69,22 @@ module.exports = {
             title: '数据集配置',
             path: '/documentation/dataflow/',
           },
+          {
+            title: '常用案例',
+            path: '/documentation/example/',
+            children: [
+              {
+                title: '数据集使用',
+                path: '/documentation/example/dataset/',
+                children: [
+                  {
+                    title: 'HTTP数据集',
+                    path: '/documentation/example/dataset/http/',
+                  },                 
+                ]
+              },
+            ]
+          },
 
         ]
       },
